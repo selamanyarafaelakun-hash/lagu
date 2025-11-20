@@ -2,7 +2,7 @@ const animals = {
   "jawa": [
     { 
       name: "Badak Jawa",
-      img: "badak jawa.JPEG",
+      img: "badak jawa.jpeg",
       latin: "Rhinoceros sondaicus",
       habitat: "Hutan hujan Ujung Kulon",
       food: "Daun-daunan, ranting",
@@ -11,7 +11,7 @@ const animals = {
     },
     { 
       name: "Elang Jawa",
-      img: "elang jawa.JPEG",
+      img: "elang jawa.jpeg",
       latin: "Nisaetus bartelsi",
       habitat: "Hutan pegunungan Jawa",
       food: "Mamalia kecil, kadal, burung lain",
@@ -20,7 +20,7 @@ const animals = {
     },
     { 
       name: "Lutung Jawa",
-      img: "lutungjawa.JPEG",
+      img: "lutungjawa.jpeg",
       latin: "Trachypithecus auratus",
       habitat: "Hutan tropis Jawa",
       food: "Buah, daun, bunga",
@@ -32,7 +32,7 @@ const animals = {
   "sumatra": [
     { 
       name: "Harimau Sumatra",
-      img: "harimau.JPEG",
+      img: "harimau.jpeg",
       latin: "Panthera tigris sumatrae",
       habitat: "Hutan Sumatra",
       food: "Rusa, babi hutan",
@@ -41,7 +41,7 @@ const animals = {
     },
     { 
       name: "Gajah Sumatra",
-      img: "gajah.JPEG",
+      img: "gajah.jpeg",
       latin: "Elephas maximus sumatranus",
       habitat: "Hutan dataran rendah Sumatra",
       food: "Rumput, daun, kulit kayu",
@@ -50,7 +50,7 @@ const animals = {
     },
     { 
       name: "Badak Sumatra",
-      img: "badak.JPEG",
+      img: "badak.jpeg",
       latin: "Dicerorhinus sumatrensis",
       habitat: "Hutan tropis lebat",
       food: "Daun, ranting",
@@ -92,7 +92,7 @@ const animals = {
   "sulawesi": [
     { 
       name: "Tarsius",
-      img: "tarsius.jpg",
+      img: "tarsius.jpeg",
       latin: "Tarsius tarsier",
       habitat: "Hutan Sulawesi",
       food: "Serangga, kadal kecil",
@@ -101,7 +101,7 @@ const animals = {
     },
     { 
       name: "Anoa",
-      img: "anoa.jpg",
+      img: "anoa.jpeg",
       latin: "Bubalus depressicornis",
       habitat: "Hutan pegunungan",
       food: "Rumput, daun",
@@ -110,7 +110,7 @@ const animals = {
     },
     { 
       name: "Babi Rusa",
-      img: "babirusa.jpg",
+      img: "babirusa.jpeg",
       latin: "Babyrousa babyrussa",
       habitat: "Hutan Sulawesi",
       food: "Buah, daun",
@@ -122,7 +122,7 @@ const animals = {
   "papua": [
     { 
       name: "Burung Cendrawasih",
-      img: "candrawasi.JPEG",
+      img: "candrawasi.jpeg",
       latin: "Paradisaeidae",
       habitat: "Hutan Papua",
       food: "Serangga, buah",
@@ -131,7 +131,7 @@ const animals = {
     },
     { 
       name: "Kaswari",
-      img: "kaswari.JPEG",
+      img: "kaswari.jpeg",
       latin: "Casuarius casuarius",
       habitat: "Hutan Papua",
       food: "Buah, akar",
@@ -140,7 +140,7 @@ const animals = {
     },
     { 
       name: "Kangguru Pohon",
-      img: "kangguru pohon.JPEG",
+      img: "kangguru pohon.jpeg",
       latin: "Dendrolagus",
       habitat: "Hutan hujan Papua",
       food: "Daun, buah",
@@ -174,3 +174,4 @@ document.getElementById("search").addEventListener("keyup", function () {
     resultDiv.innerHTML = `<p>Pulau tidak ditemukan. Coba: Jawa, Sumatra, Kalimantan, Papua...</p>`;
   }
 });
+
